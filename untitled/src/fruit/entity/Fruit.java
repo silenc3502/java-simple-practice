@@ -19,6 +19,14 @@ public class Fruit {
         return id;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public FruitType getType() {
+        return type;
+    }
+
     public void setPrice(int price) {
         this.price = price;
     }
